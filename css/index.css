@@ -1,0 +1,30 @@
+:root{
+    /* fonts */
+    --main-fonts-nunito: font-family: 'Nunito', sans-serif;
+    /* background */
+    --main-body-bg: #18181c;
+    --main-catalog-bg:lightgray;
+    --main-btn-bg:#4b4ce5;
+    /* Color-text */
+    --color-main-text:#fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.7;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--main-fonts-nunito)
+}
+body{
+    background: var(--main-body-bg);
+    
+}
+
+.container{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}

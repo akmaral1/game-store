@@ -1,0 +1,43 @@
+.header__container{
+
+    padding-top: 24pt;
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav h3{
+
+color: #f1e8e8;
+font-size: 24px;
+font-weight: bold;
+}
+
+.nav__basket{
+ position: relative;
+}
+.nav__basket h3{
+    width: 60px;
+    text-align: center;
+}
+.basket-radius{
+    width: 18px;
+    height: 18px;
+    background:#d25353;
+    border-radius: 100%;
+    position: absolute;
+    top: -3px;
+    right: 7px;
+    text-align: center;
+    /* display: block; */
+    /* justify-content: center; */
+    /* padding: 10px; */
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
